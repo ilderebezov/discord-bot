@@ -1,6 +1,6 @@
 settings = {
-    'token': 'OTE2MjI4NDY2NDk0NTYyMzM0.YanGQQ.YTghaFIUJVXbU1vHBkAeFxoYeCE',
-    'bot': 'bot_mello',
-    'id': 916228466494562334,
+    'token': 'put you tokken here',
+    'bot': 'put name you bot here',
+    'id': put id you bot here,
     'prefix': '.'
 }
