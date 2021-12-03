@@ -27,12 +27,12 @@ async def unban(ctx, user: discord.User):
 @bot.event
 async def on_member_join(member):
   logging.basicConfig(filename='users_log.log', format='%(message)s', level=logging.INFO)
-  logging.info('user: {0} has joined the channel at: {1}\n'.format(member.name, str(datetime.datetime.now())))
+  logging.info('user: {0} connected to the channel at: {1}\n'.format(member.name, str(datetime.datetime.now())))
 
 
 @bot.event
 async def on_member_remove(member):
-  logging.info('user: {0} has left the channel at: {1}\n'.format(member.name, str(datetime.datetime.now())))
+  logging.info('user: {0} hleft channel at: {1}\n'.format(member.name, str(datetime.datetime.now())))
 
 
 @bot.command()
